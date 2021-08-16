@@ -8,7 +8,7 @@ const {
   celsiusToFahrenheit,
   calculateLifetimeSupply,
   getGrade,
-  calculateAreaOfCirlce,
+  calculateAreaOfCircle,
   getStudentSummary
 } = challenge;
 
@@ -146,21 +146,21 @@ xdescribe("getGrade() tests", () => {
 
 xdescribe("calculateAreaOfCircle() tests", () => {
   it("Should have a return", () => {
-    expect(calculateAreaOfCirlce(3)).toBeDefined();
+    expect(calculateAreaOfCircle(3)).toBeDefined();
   });
 
   it("Should return a number", () => {
-    expect(typeof calculateAreaOfCirlce(3)).toBe("number");
+    expect(typeof calculateAreaOfCircle(3)).toBe("number");
   });
 
   it("Should have the answer to two decimal places", () => {
-    expect(calculateAreaOfCirlce(3)).toBeCloseTo(28.27, 2);
+    expect(calculateAreaOfCircle(3)).toBeCloseTo(28.27, 2);
   });
 
   it("Should return the correct number for a range of radii", () => {
-    expect(calculateAreaOfCirlce(3)).toBe(28.27);
-    expect(calculateAreaOfCirlce(5)).toBe(78.54);
-    expect(calculateAreaOfCirlce(1)).toBe(3.14);
+    expect(calculateAreaOfCircle(3)).toBe(28.27);
+    expect(calculateAreaOfCircle(5)).toBe(78.54);
+    expect(calculateAreaOfCircle(1)).toBe(3.14);
   });
 });
 

@@ -109,7 +109,7 @@ export const getGrade = (score) => {
  * @param {number} radius 3
  * @returns {number} 28.27
  */
-export const calculateAreaOfCirlce = (radius) => {
+export const calculateAreaOfCircle = (radius) => {
   /* Write your code here */
 };
 
