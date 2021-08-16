@@ -61,7 +61,7 @@ export const checkIfNewHighScore = (score, highScore) => {
 };
 
 /**
- * A function that converts a temperature a in celsuis to fahrenheit and outputs it in a string format -> "15 degrees celsius is 59 degrees fahrenheit".
+ * A function that converts a temperature a in celsius to fahrenheit and outputs it in a string format -> "15 degrees celsius is 59 degrees fahrenheit".
  *
  * @param {number} tempInCelsius 15
  * @returns {string} "15 degrees celsius is 59 degrees fahrenheit"
@@ -71,7 +71,7 @@ export const celsiusToFahrenheit = (tempInCelsius) => {
 };
 
 /**
- * A function that calculates the numebr of snickers needed for the rest of your life based on the number you eat per day,
+ * A function that calculates the number of snickers needed for the rest of your life based on the number you eat per day,
  * your age and your maximum age.
  *
  * @param {number} snickersPerDay 2
